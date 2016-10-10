@@ -1,0 +1,17 @@
+*{
+	padding:0rem;margin:0rem;list-style:none;text-decoration: none;
+}
+.container{
+	padding-top:20px;
+}
+ 
+.imgs{
+	width:200px;height:267px;
+}
+.box{
+	width: 200px;height:300px;
+ 	text-align: center;
+ }
+.box a{
+	font-size:16px;color:#333;
+}
