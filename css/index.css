@@ -25,37 +25,41 @@ body{
 }
 .s1{
 	left:10px;
-	animation:dong1 5s infinite;
+	animation:dong1 9s infinite;
 }
 .s2{
 	left:60px;
+	animation:dong1 10s infinite;
 }
 .s3{
 	left:100px;
+	animation:dong1 8s infinite;
 }
 .s4{
 	left:130px;
+	animation:dong1 12s infinite;
 }
 .s5{
 	left:200px;
+	animation:dong1 15s infinite;
 }
 .s6{
 	left:240px;
+	animation:dong1 7s infinite;
 }
 @keyframes dong1{
 	0%{
 		bottom:0px;
 		opacity:0;
-	}
-	25%{
-		rotate(90deg)
-	}
+		transform:rotateZ(0deg);
+	} 
 	50%{
 		opacity: 1;
-	}
+ 	}
  	100%{
 		bottom:400px;
 		opacity: 0;
+		transform:rotateZ(-360deg);
 	}
 } 
 
